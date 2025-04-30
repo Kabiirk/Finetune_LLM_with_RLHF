@@ -28,7 +28,7 @@ Fine-tuning with reinforcement learning from human feedback (RLHF) is a techniqu
 Fine-tuning with RLHF is usually more effective than fine-tuning alone, especially for tasks requiring an LLM to learn human values and preferences. However, it requires even more data, computational resources, and human effort.
 
 ## RLHF Pipeline
-The Instruct(GPT) RLHF pipeline involves taking a pre-trained model and refining it through supervised training. Afterward, the updated model is further refined using proximal policy optimization.
+Our RLHF pipeline involves taking a pre-trained model and refining it through supervised training. Afterward, the updated model is further refined using proximal policy optimization.
 
 The RLHF pipeline can be summed up as a 3-step training process:
 
