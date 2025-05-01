@@ -43,7 +43,7 @@ The RLHF pipeline can be summed up as a 3-step training process:
      To transform the model from RLHF pipeline step 1 to a reward model, we replace its output layer (the next-token layer) with a regression layer with a single output node.
 
 3. **Additional refinement using proximal policy optimization (PPO)**
-    We employ the reward model (v2) to finetune further the previous model that underwent supervised finetuning (v1).
+    We employ the reward model to finetune further the previous model that underwent supervised finetuning.
 
-    We adjust the v1 model using proximal policy optimization (PPO) guided by the reward scores obtained from the reward model we established in RLHF pipeline step 2.
+    We adjust the 1st model model using proximal policy optimization (PPO) guided by the reward scores obtained from the reward model we established in RLHF pipeline step 2.
 
